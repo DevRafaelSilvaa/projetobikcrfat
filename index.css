@@ -1,0 +1,436 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.imagem-logo{
+    background-color: #000;
+}
+
+.container{
+    background-color: #000;
+    display: flex;
+    height: 700px;
+}
+
+.menus-navegacao{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-top: 40px;
+    background-color: #000000;
+    color: #fff;
+    
+}
+
+.menu1{
+    margin-left: 900px;
+}
+
+.content h2 {
+    font-size: 60px;
+    margin-left: 100px;
+    margin-top: 150px;
+    color: hsl(0, 0%, 100%);
+}
+
+.content p { 
+    margin-left: 90px;
+    font-size: 30px;
+    color: #878181;
+    margin-bottom: 40px;
+}
+
+.imagem-topo{
+    margin-top: 90px;
+    width: 500px;
+    height: 600px;
+}
+
+.container-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.escolher{
+    width: fit-content;
+    margin-left: 90px;
+    background-color: #bb7b1a;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.escolher:hover{
+    background-color: #ffa601;
+}
+
+.escolha h2 {
+    margin-top: 90px;
+    margin-left: 90px;
+    font-size: 50px;
+}
+
+span{
+    color: #bb7b1a;
+}
+
+.magik{
+    height: 500px;
+    width: 400px;
+    margin-left: 10px;
+}
+
+.detalhe{
+    height: 10px;
+    width: 30px;
+    margin-top: -30px;
+    background-color: #bb7b1a;
+    color: #bb7b1a;
+}
+
+.magik-bike h2 {
+    font-size: 40px;
+}
+
+.magik-bike p {
+
+    color: #ccc;
+    text-decoration: none;
+    margin-left: 30px;
+}
+ 
+.magik-bike a {
+    text-decoration: none;
+    color: #000;
+}
+
+.escolher-bikcraft{
+    display: flex;
+    gap: 40px;
+}
+
+.content2{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #000;
+    height: 900px;
+}
+
+.imagem-ferramentas{
+    width: 600px;
+    height: 1000px;
+}
+
+.conteudo p {
+    padding: 40px;
+    color: #ccc;
+    font-size: 20px;
+}
+
+.conteudo h2 {
+    font-size: 80px;
+    padding: 40px;
+    color:#fff;
+    margin-top: -40px;
+}
+
+.bike{
+    margin-top: -40px;
+}
+
+.botao{
+    margin-left: 40px;
+    text-decoration: underline;
+    font-size: 40px;
+    color: #bb7b1a;
+}
+
+.botao:hover{
+    color: #fff;
+}
+
+.eletrica-atributo h2 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.eletrica-atributo p {
+    margin: 0px;
+    color: #ccc;
+}
+
+.eletrica-atributo{
+    margin-top: 90px;
+}
+
+.atributos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.eletrica{
+    margin-left: 40px;
+}
+
+.eletrica-atributo p {
+    margin-top: -90px;
+}
+
+article h2 {
+    margin-top: 150px;
+    margin-left: 90px;
+    font-size: 60px;
+    
+}
+
+.logos-parceiros{
+    margin-left: 90px;
+    width: 200px;
+    height: 80px;
+    margin-top: 90px;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.parceiros-logo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.depoimento-imagem{
+    width: 700px;
+    height: 600px;
+    margin-top: 90px;
+}
+
+.depoimento{
+   display: flex;
+}
+
+.depoimento p {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.detalhe-texto{
+    background-color: #b99813;
+    margin-top: 90px;
+    width: 750px;
+}
+
+
+.secao-seguros h2 {
+    margin-left: 90px;
+    font-size: 60px;
+    padding: 30px;
+    color: #fff;
+}
+
+.secao-seguros{
+    background-color: #070707f4;
+}
+
+.seguro-prata{
+    display: flex;
+    gap: 90px;
+}
+
+.seguro-prata p {
+    font-size: 40px;
+}
+
+.prata{
+    margin-left: 20px;
+    color: #878181;
+}
+
+.valor{
+    color: #fff;
+    margin-left: 150px;
+}
+
+.seguro-geral{
+    margin-top: 200px;
+    background-color: #000;
+    margin-left: -200px;
+    width: 500px;
+    height: 450px;
+    margin-bottom: 90px;
+}
+.paragrafos-seguro p {
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+.paragrafos{
+    color: #fff;
+    margin-top: 40px;
+}
+
+.mensal p {
+    color: #878181;
+    margin-left: 380px;
+}
+
+.secao-seguros{
+    display: flex;
+}
+
+.secao-ouro-geral{
+    background-color: #000000;
+    margin-left: 90px;
+    margin-top: 160px;
+    margin-bottom: 20px;
+}
+
+.seguro-ouro{
+    margin-left: 150px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.ouro{
+    color: #b99813;
+    margin-left: -90px;
+    font-size: 40px;
+}
+
+.valor{
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.mensal-ouro p {
+    margin-left: 300px;
+    color: #878181;
+}
+
+.paragrafos-ouro p {
+    margin-left: 40px;
+    
+}
+
+.paragrafo-prata{
+    margin-bottom: 90px;
+}
+
+.inscrevase-prata{
+    background-color: #878181;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 90px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.inscrevase-prata:hover{
+    background-color: #9d9a9a;
+}
+
+
+.Inscrevase-ouro{
+    margin-left: 40px;
+    background-color: #b99813;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    width: 900px;
+    margin-bottom: -90px;
+
+}
+
+.Inscrevase-ouro:hover{
+    background-color: #bb7b1a;
+}
+
+.paragrafos-ultimo{
+    margin-bottom: 90px;
+    margin-top: 40px;
+    color: #fff;
+}
+
+footer{
+    background-color: #000000;
+    height: 800px;
+}
+
+.logo-bike{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.rodape{
+}
+
+.rodape p {
+    color: #ccc;
+    margin-top: 20px;
+}
+
+.redes-sociais{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.rodape{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contato{
+    display: block;
+    color: #9d9a9a;
+    text-decoration: none;
+}
+
+.contato:hover{
+    color: #fff;
+}
+
+.card2 h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.card2{
+    margin-top: 90px;
+}
+
+.card2 a {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.card-1 h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.card-1{
+    margin-top: 90px;
+}
+
+.card-1 a {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-1 p {
+    font-size: 30px;
+}
+
+.telefone{
+    margin-top: 90px;
+}
+
+
+   
